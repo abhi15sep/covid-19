@@ -5,7 +5,7 @@ import stateCoordinates from "../../data/states.json";
 
 class Landing extends PureComponent {
   retrieveWorldData() {
-    fetch("https://corona.lmao.ninja/countries")
+    fetch("https://corona.lmao.ninja/v2/countries")
       .then(blob => blob.json())
       .then(data =>
         this.setState({
@@ -36,7 +36,7 @@ class Landing extends PureComponent {
   }
 
   retrieveStateData() {
-    fetch("https://corona.lmao.ninja/states")
+    fetch("https://corona.lmao.ninja/v2/states")
       .then(blob => blob.json())
       .then(data =>
         this.setState({
