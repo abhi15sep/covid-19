@@ -7,7 +7,7 @@ const Footer = props => (
     {/*Licensed under MIT. Contribute to the project at{" "}*/}
       <span>
         {/*<a
-          href="https://github.com/cakebatterandsprinkles/whereiscovid"
+          href="https://github.com/abhi15sep"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.footer__link}
